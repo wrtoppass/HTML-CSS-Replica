@@ -1,0 +1,144 @@
+.container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+}
+
+.navi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign{
+    margin-right: auto;
+    margin-left: 20px;
+    font-family:sans-serif;
+    position: relative;
+    bottom: 15px;
+   
+}
+
+.email{
+    font-family:sans-serif;
+    margin-right: auto;
+    margin-left: 30px;
+    position:relative;
+    bottom: 45px;
+}
+
+input[type=text], select{
+    width: 350px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position:relative;
+    bottom: 0px;
+}
+
+.link{
+    position: relative;
+    margin-left: 240px;
+    height:0px;
+    
+}
+
+a{
+    color: rgb(34, 134, 255);
+}
+
+a:hover{
+    color: rgb(0, 81, 255);
+}
+
+.atext{
+    position: relative;
+    margin-bottom: px;
+}
+
+.btn {
+    width: 350px;
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    margin-top: 15px;
+  }
+
+  .continue{
+    background-color: #ffb444;
+  }
+  
+  .continue:hover{
+    background: #c07e1c;
+  }
+
+.needhelp{
+    position: relative;
+    margin-top: 15px;
+    margin-right: 300px;
+}
+
+.new{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn2 {
+    width: 350px;
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    margin-left: 225px;
+  }
+
+  .create{
+    background-color: #e1e1e1;
+  }
+  
+  .create:hover{
+    background: #909090;
+  }
+
+  .hori{
+    position: relative;
+    margin-top: 80px;
+  }
+
+.lower{
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 130px;
+    
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
