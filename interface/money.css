@@ -98,11 +98,14 @@ a:hover{
 
 .btn2 {
     width: 350px;
+    display: flex;
+    flex-direction: column;
     border: none; 
     color: rgb(0, 0, 0); 
     padding: 14px 28px; 
     cursor: pointer; 
-    margin-left: 225px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .create{
@@ -132,7 +135,8 @@ a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
